@@ -1,10 +1,21 @@
-import { Outlet, Link, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom'
 
 const Layout = () => {
 
 
     const location = useLocation()
     const urlActual = location.pathname
+
+
+    // pequeño HACK para que acceda a "/clientes" (no hay definido componente para la home al usar Router en el componente App.jsx)
+    const navigate = useNavigate()
+
+    useEffect(() => {
+        urlActual !== '/clientes' && navigate("/clientes")
+    }, [])
+
+
 
   return (
     <div className='md:flex md:min-h-screen'>
