@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Álvaro",
+      "empresa": "Cucoland",
+      "email": "alvaroq@gmail.com",
+      "telefono": "667743219",
+      "observaciones": "Esperando novedades de productos",
+      "id": 1
+    },
+    {
+      "nombre": "Julia",
+      "empresa": "Julia´s Movies",
+      "email": "juliuca@gmail.com",
+      "telefono": "942258595",
+      "observaciones": "Comida regulera",
+      "id": 2
+    },
+    {
+      "nombre": "Manolo",
+      "empresa": "Harinas Manolo",
+      "email": "manolo@harinas.com",
+      "telefono": "",
+      "observaciones": "Muy rico todo",
+      "id": 3
+    },
+    {
+      "nombre": "Isabel",
+      "empresa": "Chabelis",
+      "email": "chabelis@chabelis.com",
+      "telefono": "",
+      "observaciones": "",
+      "id": 4
+    }
+  ]
+}
